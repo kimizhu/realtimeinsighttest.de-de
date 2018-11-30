@@ -2,10 +2,6 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -15,33 +11,38 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
         ]
       }
     ],
+    "dest": "realtimeinsighttest",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/realtimeinsighttest/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "ms.author": "jasoz"
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/realtimeinsighttest/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "realtimeinsighttest",
-    "markdownEngineName": "markdig"
+    "template": []
   }
 }
